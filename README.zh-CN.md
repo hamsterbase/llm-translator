@@ -1,17 +1,8 @@
 # LLM Translator
 
-[English](./README.md)
+[English](./README.md) | [在线 Demo](https://tasks.hamsterbase.com/llm-translator/)
 
 这个项目只有一段提示词。把下面的提示词复制到 Claude Code 或其他任何 LLM 模型即可生成完整应用。
-
-**在线 Demo：** https://tasks.hamsterbase.com/llm-translator/
-
-![Screenshot](./screenshot.png)
-
-## 功能
-
-- 支持自定义翻译模型 —— 可配置任意 OpenAI 兼容 API（base URL、key、model、temperature）。
-- 支持自定义翻译模板 —— 使用 `{{text}}` / `{{source_lang}}` / `{{target_lang}}` 占位符自定义提示词,并通过标签页切换。
 
 ## 提示词
 
@@ -30,6 +21,4 @@
 - 双语 UI(中文 ↔ 英文)切换按钮位于设置旁边;语言偏好持久化;状态指示器(READY/SETUP)带闪烁圆点。
 ```
 
----
-
-Powered by [HamsterBase Tasks](https://tasks.hamsterbase.com/)
+![Screenshot](./screenshot.png)

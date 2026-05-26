@@ -1,17 +1,8 @@
 # LLM Translator
 
-[中文](./README.zh-CN.md)
+[中文](./README.zh-CN.md) | [Online Demo](https://tasks.hamsterbase.com/llm-translator/)
 
 This project is just one prompt. Copy the prompt below into Claude Code or any other LLM to generate the complete app.
-
-**Online Demo:** https://tasks.hamsterbase.com/llm-translator/
-
-![Screenshot](./screenshot.png)
-
-## Features
-
-- Bring your own model — configure any OpenAI-compatible API (base URL, key, model, temperature).
-- Customizable translation templates — define your own prompts with `{{text}}` / `{{source_lang}}` / `{{target_lang}}` placeholders and switch between them via tabs.
 
 ## Prompt
 
@@ -31,6 +22,4 @@ editor) · Import/Export (JSON, with or without API key, overwrite/merge on impo
 blinking dot.
 ```
 
----
-
-Powered by [HamsterBase Tasks](https://tasks.hamsterbase.com/)
+![Screenshot](./screenshot.png)
