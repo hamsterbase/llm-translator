@@ -16,20 +16,19 @@
 ## 提示词
 
 ```txt
-Build a single-file HTML app (Vue 3 + Tailwind via CDN, no build step) — an LLM-powered translator in neobrutalist
-style: cream paper background with a black grid, thick 4–6px black borders, hard offset shadows (no border-radius),
-accent colors acid-yellow / hot-orange / cobalt / pink, Archivo Black headings + JetBrains Mono body.
+构建一个单文件 HTML 应用(Vue 3 + Tailwind 通过 CDN 引入,无需构建步骤)—— 一个由 LLM 驱动的翻译器,采用新粗野主义
+(neobrutalist)风格:奶油色纸质背景配黑色网格,4–6px 粗黑边框,硬偏移阴影(无圆角),
+强调色使用酸性黄 / 亮橙 / 钴蓝 / 粉色,标题使用 Archivo Black,正文使用 JetBrains Mono。
 
-Features:
-- User configures an OpenAI-compatible API (base URL, key, model, temperature); saved to localStorage.
-- Multiple translation templates: name, source lang, target lang, custom prompt using {{text}} / {{source_lang}} /
-{{target_lang}}; switch via top tabs. Default = one EN→ZH template (English prompt).
-- Two-column workspace: input textarea ↔ streamed output; Ctrl/Cmd+Enter to run; copy / clear buttons.
-- Right-side settings drawer with sub-tabs: API config · Templates editor (add/delete/rename, language selects, prompt
-editor) · Import/Export (JSON, with or without API key, overwrite/merge on import).
-- Bilingual UI (Chinese ↔ English) toggle next to Settings; locale persisted; status indicator (READY/SETUP) with
-blinking dot.
-- Footer: "Powered by HamsterBase Tasks" linking to https://tasks.hamsterbase.com/.
+功能:
+- 用户可配置 OpenAI 兼容的 API(base URL、key、model、temperature);保存到 localStorage。
+- 多个翻译模板:名称、源语言、目标语言、使用 {{text}} / {{source_lang}} / {{target_lang}} 占位符的自定义提示词;
+通过顶部标签页切换。默认为一个 EN→ZH 模板(英文提示词)。
+- 双栏工作区:输入文本框 ↔ 流式输出;Ctrl/Cmd+Enter 运行;复制 / 清空按钮。
+- 右侧设置抽屉,带子标签页:API 配置 · 模板编辑器(增删改名、语言选择、提示词编辑器)·
+导入/导出(JSON,可选择是否包含 API key,导入时支持覆盖/合并)。
+- 双语 UI(中文 ↔ 英文)切换按钮位于设置旁边;语言偏好持久化;状态指示器(READY/SETUP)带闪烁圆点。
+- 页脚:"Powered by HamsterBase Tasks",链接到 https://tasks.hamsterbase.com/。
 ```
 
 ---
