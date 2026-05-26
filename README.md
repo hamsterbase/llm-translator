@@ -29,7 +29,6 @@ Features:
 editor) · Import/Export (JSON, with or without API key, overwrite/merge on import).
 - Bilingual UI (Chinese ↔ English) toggle next to Settings; locale persisted; status indicator (READY/SETUP) with
 blinking dot.
-- Footer: "Powered by HamsterBase Tasks" linking to https://tasks.hamsterbase.com/.
 ```
 
 ---

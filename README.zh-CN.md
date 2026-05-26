@@ -28,7 +28,6 @@
 - 右侧设置抽屉,带子标签页:API 配置 · 模板编辑器(增删改名、语言选择、提示词编辑器)·
 导入/导出(JSON,可选择是否包含 API key,导入时支持覆盖/合并)。
 - 双语 UI(中文 ↔ 英文)切换按钮位于设置旁边;语言偏好持久化;状态指示器(READY/SETUP)带闪烁圆点。
-- 页脚:"Powered by HamsterBase Tasks",链接到 https://tasks.hamsterbase.com/。
 ```
 
 ---
